@@ -27,7 +27,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+  <snapshotRepository>
+    <id>Java_cal_snapshot</id>
+    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_snapshot</url>
+  </snapshotRepository>
+  <repository>
+    <id>Java_cal_release</id>
+    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_release</url>
+  </repository>
+</distributionManagement>
   <build>
     <finalName>web-project</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
