@@ -1,12 +1,12 @@
 <settings>
 <servers>
     <server>
-      <id>web</id>
+      <id>web-snapshot</id>
       <username>jayant</username>
       <password>devops</password>
 </server>
     <server>
-      <id>web</id>
+      <id> web-release</id>
       <username>jayant</username>
       <password>devops</password>
 </server>
