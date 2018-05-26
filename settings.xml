@@ -2,13 +2,13 @@
 <servers>
     <server>
       <id>releases</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>jayant</username>
+      <password>devops</password>
 </server>
     <server>
       <id>snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
+      <username>jayant</username>
+      <password>devops</password>
 </server>
 </servers>
 </settings>
