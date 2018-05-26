@@ -29,15 +29,15 @@
   </dependencies>
 <distributionManagement>
   <snapshotRepository>
-    <id>Java_cal_snapshot</id>
-    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_snapshot</url>
+    <id>snapshots</id>
+    <url>http://172.22.23.246:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
-  <repository>
-    <id>Java_cal_release</id>
-    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_release</url>
+ <repository>
+    <id>releases</id>
+    <url>http://172.22.23.246:8081/nexus/content/repositories/releases</url>
   </repository>
-</distributionManagement>
-  <build>
+</distributionManagement>  
+<build>
     <finalName>web-project</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
