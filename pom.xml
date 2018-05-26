@@ -28,14 +28,14 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-  <snapshotRepository>
-    <id>Java_cal_snapshot</id>
-    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_snapshot</url>
-  </snapshotRepository>
   <repository>
-    <id>Java_cal_release</id>
-    <url>http://35.231.176.82:8081/nexus/content/repositories/Java_cal_release</url>
+    <id>web-release</id>
+    <url>http://172.22.23.246:8081/nexus/content/repositories/web-release</url>
   </repository>
+  <snapshotRepository>
+    <id>web-snapshot</id>
+    <url>http://172.22.23.246:8081/nexus/content/repositories/web-snapshot</url>
+  </snapshotRepository>
 </distributionManagement>
   <build>
     <finalName>web-project</finalName>
