@@ -1,15 +1,25 @@
 <settings>
-<servers>
-    <server>
-      <id>releases</id>
-      <username>admin</username>
-      <password>admin123</password>
-</server>
-    <server>
-      <id>snapshots</id>
-      <username>admin</username>
-      <password>admin123</password>
-</server>
-</servers>
-</settings>
+   <servers>
+         <server>
+                 <id>TomcatServer</id>
+                 <username>tomcat</username>
+                 <password>tomcat</password>
+         </server>
+         <server>
+                 <id>TomcatServer1</id>
+                 <username>deploy</username>
+                 <password>devops</password>
+         </server>
+        <server>
+                 <id>java-release</id>
+                 <username>admin</username>
+                 <password>admin123</password>
+         </server>
+        <server>
+                 <id>snapshots</id>
+                 <username>admin</username>
+                 <password>admin123</password>
+         </server>
 
+   </servers>
+</settings>
