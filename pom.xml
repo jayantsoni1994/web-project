@@ -27,7 +27,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-  <groupId>org.sonarsource.scanner.maven</groupId>
+<groupId>org.sonarsource.scanner.maven</groupId>
 <artifactId>sonar-maven-plugin</artifactId>
 <version>3.2</version>
 </dependency>
@@ -46,6 +46,7 @@ http://192.168.56.3:9003
 </properties>
 </profile>
 </profiles>
+
 <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
