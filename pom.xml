@@ -97,7 +97,7 @@ http://35.231.101.237:9999
    <artifactId>tomcat7-maven-plugin</artifactId>
    <version>2.2</version>
    <configuration>
-  	 <url>http://35.185.9.147:8074/manager/text</url>
+  	 <url>http://18.206.59.126:7777/manager/text</url>
   	 <server>TomcatServer</server>
   	 <path>/WebApps</path>
    </configuration>
