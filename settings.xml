@@ -2,8 +2,8 @@
    <servers>
          <server>
                  <id>TomcatServer</id>
-                 <username>tomcat</username>
-                 <password>tomcat</password>
+                 <username>deploy</username>
+                 <password>devops</password>
          </server>
          <server>
                  <id>TomcatServer1</id>
